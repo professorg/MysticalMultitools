@@ -1,0 +1,16 @@
+[
+{
+  "modid": "mysticalmultitools",
+  "name": "Mystical Multitools",
+  "description": "Highly upgradeable multitools.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["ProfessorG"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

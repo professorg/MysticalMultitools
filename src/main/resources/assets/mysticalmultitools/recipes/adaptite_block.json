@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "mysticalmultitools:adaptite_block"
+  },
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "a": {
+      "item": "mysticalmultitools:adaptite"
+    }
+  }
+}
