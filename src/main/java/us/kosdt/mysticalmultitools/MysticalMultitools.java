@@ -22,6 +22,9 @@ public class MysticalMultitools {
     @SidedProxy(clientSide = "us.kosdt.mysticalmultitools.proxy.ClientProxy", serverSide = "us.kosdt.mysticalmultitools.proxy.ServerProxy")
     public static CommonProxy proxy;
 
+    private static int modGuiIndex = 0;
+    public static final int GUI_ADAPTITE_BAG = modGuiIndex++;
+
     public static CreativeTabs creativeTab = new CreativeTabs("mysticalmultitools") {
         @Override
         public ItemStack getTabIconItem() { return new ItemStack(ModBlocks.blockAdaptite); }

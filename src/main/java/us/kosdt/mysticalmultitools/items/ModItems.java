@@ -8,9 +8,12 @@ public class ModItems {
 
     @GameRegistry.ObjectHolder("mysticalmultitools:adaptite")
     public static ItemAdaptite itemAdaptite;
+    @GameRegistry.ObjectHolder("mysticalmultitools:adaptite_bag")
+    public static ItemAdaptiteBag itemAdaptiteBag;
 
     @SideOnly(Side.CLIENT)
     public static void initModels() {
         itemAdaptite.initModel();
+        itemAdaptiteBag.initModel();
     }
 }
